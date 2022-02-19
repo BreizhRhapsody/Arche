@@ -1,0 +1,145 @@
+/*Fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Martel:wght@200&family=Quicksand&display=swap");
+
+/*
+    font-family: 'Martel', serif;
+    font-family: 'Calligraffitti', cursive;
+    font-family: 'Quicksand', sans-serif;
+*/
+
+/*Colors*/
+
+.moodcolors {
+  --blue: #2b484a;
+  --orange: #d8a655;
+  --brown: #a6a27e;
+  --cream: #edccad;
+  --light-grey: #eeeae8;
+}
+
+/*CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  min-width: 300px;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Calligraffitti", cursive;
+  font-size: 21px;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+}
+
+/*Navbar*/
+
+nav {
+  background-color: #a6a27e;
+}
+
+.navbar-brand {
+  font-family: "Calligraffitti", cursive;
+  font-size: 18px;
+  white-space: wrap;
+  text-align: right;
+}
+
+.navbar-logo {
+  width: 80px;
+}
+
+.navbar-nav {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .collapse {
+    justify-content: space-evenly;
+  }
+  .bd {
+    margin: 0.6vw;
+  }
+}
+
+/*Header*/
+
+.head-text-bg-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+div .container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-home {
+  width: 100vw;
+}
+
+.head-text {
+  position: absolute;
+  top: 20vw;
+  left: 30vw;
+  transform: translate(-25vw, -15vw);
+  text-align: left;
+}
+
+.head-slogan {
+  text-align: left;
+  font-size: 4.5vw;
+}
+
+.head-btn {
+  font-size: 4vw;
+  background-color: var(--orange);
+  color: white;
+  padding: 1vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border: solid 1px var(--orange);
+  border-radius: 5px;
+}
+
+/*Main*/
+
+/*Le refuge*/
+
+.text-shelter {
+  background-color: var(--blue);
+  color: white;
+  text-align: justify;
+  padding: 10vw;
+}
+
+.title-shelter {
+  text-align: center;
+  padding-bottom: 5vw;
+}
+
+.p-shelter {
+  padding-bottom: 5vw;
+}
+
+.img-shelter {
+  clip-path: circle();
+  justify-content: center;
+}

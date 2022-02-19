@@ -8,113 +8,119 @@
       name="description"
       content="L'Arche est un refuge breton pour tous les animaux abandonnés, maltraités ou menacés d'euthanasie. Vous souhaitez devenir bénévole ou adopter ? Contactez-nous !"
     />
-    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>
       L'Arche de Breizh | Association de Protection Animale en Bretagne
     </title>
   </head>
+
   <body>
     <!--NAVBAR-->
 
-    <nav>
-      <div>
-        <img src="img/logo-vector.png" alt="logo" />
-      </div>
-      <div>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#shelter">Le refuge</a></li>
-          <li><a href="#events">Actualités et évènements</a></li>
-          <li><a href="#adoption">A l'adoption</a></li>
-          <li><a href="#help">Nous aider</a></li>
-          <li><a href="#contact">Contact et horaires</a></li>
-        </ul>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light moodcolors">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="navbar-logo"
+            src="img/logo-vector-black.png"
+            alt="logo"
+          />L'Arche de Breizh<br />Association de Protection Animale</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item bd">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="#events">News</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="#adoption">A l'adoption</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="#help">Nous aider</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!--HEADER-->
-
     <header>
-      <div>
-        <img src="img/home.jpg" alt="shelter" />
-      </div>
-      <div>
-        <h1>L'Arche de Breizh</h1>
-        <h2>Association de Protection Animale</h2>
-        <h3>N'achetez pas. Adoptez.</h3>
-      </div>
-    </header>
-
-    <!--MAIN-->
-
-    <!--Le refuge-->
-
-    <main>
-      <section id="shelter">
-        <div>
-          <h2>Le refuge</h2>
-          <p>
-            Créé en 2021, l'Arche recueille, au coeur des Monts d'Arrée, tout
-            animal abandonné, maltraité ou blessé. Soins, travail sur la
-            confiance, éducation, nous mettons tout en oeuvre pour que nos
-            rescapés puissent retrouver une vie au sein d'un foyer aimant.<br />
+      <section id="accueil">
+        <div class="head-text-bg-img moodcolors">
+          <div class="container">
+            <img class="img-home" src="img/home.jpg" alt="home" />
+          </div>
+          <div class="head-text">
+            <p class="head-slogan">N'achetez pas.<br />Adoptez.<br /></p>
+            <a href="#adoption"
+              ><button class="head-btn">Nos animaux</button></a
+            >
+          </div>
+        </div>
+        <div class="text-shelter moodcolors">
+          <h2 class="title-shelter">Le refuge</h2>
+          <p class="p-shelter">
+            Créé en 2021, l'Arche recueille tout animal abandonné, maltraité ou
+            blessé. Soins, travail sur la confiance, éducation, nous mettons
+            tout en oeuvre pour que nos rescapés puissent retrouver une vie
+            stable au sein de leur futur foyer.<br />
             Niché au coeur des Monts d'Arrée, le refuge représente 11 hectares
             de terres dédiées aux animaux en tout genre. Quinze boxs, une
             étable, de nombreuses pâtures et enclos, un chenil, une chatterie,
             un cabinet vétérinaire... Tout pour les accueillir dans de bonnes
             conditions.
           </p>
-        </div>
-        <div>
-          <img src="img/shelter/patures.jpg" alt="shelter" />
-        </div>
-        <div>
-          <img src="img/shelter/stables.jpg" alt="shelter" />
-        </div>
-        <div>
-          <img src="img/shelter/consult.jpg" alt="shelter" />
-        </div>
-        <div>
-          <img src="img/shelter/chenil.jpg" alt="shelter" />
-        </div>
-      </section>
-      <section>
-        <h2>Nos membres</h2>
-        <div>
-          <img src="img/members/rhapsody.jpg" alt="fondatrice" />
-          <h3>Rhapsody EVOLI | Fondatrice</h3>
-        </div>
-        <div>
-          <img src="img/members/vétérinaire.jpg" alt="veterinarian" />
-          <h3>Dr. Lise MENTALI | Vétérinaire</h3>
-        </div>
-        <div>
-          <img src="img/members/maréchal-ferrant.jpg" alt="farrier" />
-          <h3>Olivier PYROLI | Maréchal-férrant</h3>
-        </div>
-        <div>
-          <img src="img/members/barbara.jpg" alt="osteopath" />
-          <h3>Barbara VOLTALI | Ostéopathe animalier</h3>
-        </div>
-        <div>
-          <img src="img/members/alex.jpg" alt="secretary" />
-          <h3>Alex PHYLLALI | Chargée de gestion administrative</h3>
-        </div>
-        <div>
-          <img src="img/members/anna.jpg" alt="keeper" />
-          <h3>Anna AQUALI | Soigneuse</h3>
-        </div>
-        <div>
-          <img src="img/members/betty.jpg" alt="keeper" />
-          <h3>Betty NYMPHALI | Soigneuse</h3>
-        </div>
-        <div>
-          <img src="img/members/bénévoles.jpg" alt="volunteers" />
-          <h3>Nos extraordinaires bénévoles</h3>
+          <div class="container">
+            <div class="row">
+              <img
+                class="img-shelter"
+                src="img/shelter/patures.jpg"
+                alt="pasture"
+              />
+            </div>
+            <div class="row">
+              <img
+                class="img-shelter"
+                src="img/shelter/arche.jpg"
+                alt="arche"
+              />
+            </div>
+            <div class="row">
+              <img
+                class="img-shelter"
+                src="img/shelter/stables.jpg"
+                alt="stables"
+              />
+            </div>
+          </div>
         </div>
       </section>
+    </header>
 
+    <!--MAIN-->
+
+    <main>
       <!--Actualités et évènements-->
 
       <section id="events">
@@ -302,5 +308,9 @@
         >© L'Arche de Breizh | Association de Protection Animale | 2021</span
       >
     </footer>
+    <script
+      type="text/javascript"
+      src="bootstrap/bootstrap.bundle.min.js"
+    ></script>
   </body>
 </html>
