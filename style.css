@@ -440,3 +440,11 @@ input[type="submit"] {
     width: 240px;
   }
 }
+
+/*FOOTER*/
+
+footer {
+  background-color: var(--brown);
+  padding: 30px;
+  text-align: center;
+}
