@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="L'Arche est un refuge breton pour tous les animaux abandonnés, maltraités ou menacés d'euthanasie. Vous souhaitez devenir bénévole ou adopter ? Contactez-nous !"
+    />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contacter l'Arche de Breizh</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+
+    <nav class="navbar sticky-top navbar-expand-md navbar-light moodcolors">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="navbar-logo"
+            src="img/logo-vector-black.png"
+            alt="logo"
+          />L'Arche de Breizh<br />Association de Protection Animale</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item bd">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="shelter.html">Le refuge</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="events.html">News</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="adoption.html">A l'adoption</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="help.html">Nous aider</a>
+            </li>
+            <li class="nav-item bd">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--HEADER-->
+
+    <header>
+      <section id="accueil">
+        <div class="head-text-bg-img moodcolors">
+          <div class="container-head">
+            <img class="img-home" src="img/home.jpg" alt="home" />
+          </div>
+          <div class="head-text">
+            <h1>L'Arche de Breizh</h1>
+            <p class="head-slogan">N'achetez pas.<br />Adoptez.<br /></p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <div id="contact" class="moodcolors">
+        <div class="container-fluid div-contact">
+          <h2 class="title-contact-h2">Contact</h2>
+          <div class="row">
+            <div class="col img-deco-contact">
+              <img
+                src="img/contact.jpg"
+                alt="contact"
+                class="img-contact img-thumbnail"
+              />
+            </div>
+            <div class="col form-contact">
+              <form>
+                <h2 class="title-contact">Nous contacter</h2>
+                <div class="field">
+                  <label for="firstname">Prénom</label>
+                  <input type="text" id="firstname" name="firstname" />
+                </div>
+                <div class="field">
+                  <label for="lastname">Nom</label>
+                  <input type="text" id="lastname" name="lastname" />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" />
+                </div>
+                <div class="field">
+                  <label for="phonenumber">Numéro de téléphone</label>
+                  <input type="text" id="phonenumber" name="phonenumber" />
+                </div>
+                <div class="field">
+                  <label for="comment">Votre message</label>
+                  <textarea
+                    type="text"
+                    id="comment"
+                    name="comment"
+                    cols="20"
+                    rows="4"
+                  ></textarea>
+                </div>
+                <input type="submit" id="btn-submit" name="btn-submit" />
+              </form>
+            </div>
+            <div class="col address-schedule">
+              <div class="address">
+                <h2 class="title-contact">Nous trouver</h2>
+                <p>
+                  Lieu-dit des Miaous<br />
+                  22900 BOTRMEUR<br />
+                  archedebreizh@gmail.com<br />
+                  06.95.52.77.29
+                </p>
+              </div>
+              <div class="schedule">
+                <h2 class="title-contact">Nos horaires</h2>
+                <p>
+                  Adoption et visites :<br />
+                  du lundi au samedi de 14h-17h<br />
+                  Séance d'éducation :<br />
+                  sur rendez-vous
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="moodcolors">
+      <span
+        >© L'Arche de Breizh | Association de Protection Animale | 2021</span
+      >
+    </footer>
+    <script
+      type="text/javascript"
+      src="bootstrap/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
